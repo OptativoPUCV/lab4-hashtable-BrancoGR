@@ -54,3 +54,13 @@ Wed 24 Apr 2024 09:51:17 PM UTC:
  tests:  8|3
 total_score: 40/70
 c41fea9
+Wed 24 Apr 2024 09:52:20 PM UTC: 
+ hashmap.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+hashmap.c: In function ‘eraseMap’:
+hashmap.c:85:1: error: expected expression before ‘}’ token
+   85 | }
+      | ^
+Compilation failed
+19ac8e1
