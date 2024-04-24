@@ -64,3 +64,14 @@ hashmap.c:85:1: error: expected expression before ‘}’ token
       | ^
 Compilation failed
 19ac8e1
+Wed 24 Apr 2024 09:52:29 PM UTC: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+hashmap.c: In function ‘eraseMap’:
+hashmap.c:80:7: error: unused variable ‘posicion’ [-Werror=unused-variable]
+   80 |   int posicion = hash(key,map->capacity);
+      |       ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+be497da
