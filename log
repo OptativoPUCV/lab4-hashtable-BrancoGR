@@ -134,3 +134,13 @@ Wed 24 Apr 2024 10:04:02 PM UTC:
  tests:  12|2
 total_score: 50/70
 eec135b
+Wed 24 Apr 2024 10:07:39 PM UTC: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+hashmap.c: In function ‘firstMap’:
+hashmap.c:114:67: error: expected statement before ‘)’ token
+  114 |       if (map->buckets[i] != NULL && map->buckets[i]->key != NULL))
+      |                                                                   ^
+Compilation failed
+84da6d8
